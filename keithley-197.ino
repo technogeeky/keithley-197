@@ -7,7 +7,7 @@
 
 #include "lcd.h"
 #include "busy.h"
-#include "k197.h"
+#include "k197-spi.h"
 #include "plotter.h"
 #include "printing.h"
 
