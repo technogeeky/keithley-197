@@ -1,9 +1,9 @@
 #include <EnableInterrupt.h>
 #include <LiquidCrystal.h>
-#include <SPI.h>
+
 
 #include "Plotter.h"
-#include <stdarg.h>
+
 
 #include "lcd.h"
 #include "busy.h"

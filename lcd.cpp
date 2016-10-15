@@ -1,6 +1,6 @@
 #include "Arduino.h"
 #include <LiquidCrystal.h>
-#include "k197.h"
+#include "k197-spi.h"
 
 void setup_lcd(LiquidCrystal& lcd) {
   lcd.begin(16, 2);

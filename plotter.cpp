@@ -1,6 +1,6 @@
 #include "Arduino.h"
 #include "Plotter.h"
-#include "k197.h"
+#include "k197-spi.h"
 
 void setup_plotter(Plotter& p,  double& x_0,  double& x,  double& y, double& x2, double mv[]) {
 
