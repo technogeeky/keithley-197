@@ -1,5 +1,6 @@
 #include "Arduino.h"
 
+
 void print_binary(int v, int num_places)
 {
     int mask=0, n;
@@ -41,4 +42,6 @@ void sprintf(char *fmt, ... ){
         va_end (args);
         Serial.print(buf);
 }
+
+
 

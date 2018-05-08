@@ -1,8 +1,8 @@
-#ifndef _printing_h
-#define _printing_h
+#pragma once
+
 
 
 void print_binary(int v, int num_places);
 void sprintf(const __FlashStringHelper *fmt, ... );
 void sprintf(char *fmt, ... );
-#endif
+
